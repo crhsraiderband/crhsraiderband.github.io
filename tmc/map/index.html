@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Directions to Parking</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script>
+			function googleMaps() {
+				//let googleMapsUrl = "maps.google.com/?daddr=30.496140202922838,-97.7500186627226&saddr=30.492748156811665,-97.77517765598797"
+				let googleMapsUrl = "maps.google.com/?daddr=30.496140202922838,-97.7500186627226&saddr=Current+Location"
+			  if /* if we're on iOS, open in Apple Maps */
+			    ((navigator.platform.indexOf("iPhone") != -1) || 
+			     (navigator.platform.indexOf("iPad") != -1) || 
+			     (navigator.platform.indexOf("iPod") != -1))
+			    window.open("maps://"+googleMapsUrl);
+			else /* else use Google */
+			    window.open("https://"+googleMapsUrl);
+			}
+		</script>
+	</head>
+	<body>
+		<h2>Overflow Parking</h2>
+		<p>If spectator parking at the venue is full, we have secondary parking available at Pearson Ranch
+		Middle School. Shuttle buses will run every 20 minutes starting at 1pm. Click one of the icons
+		below to open your favorite maps application to get directions.</p>
+		<p><img style="cursor: pointer;" onclick="googleMaps()" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/747/maps-icon.png" /></p>
+		<p>Pearson Ranch Middle School<br />
+			8901 Pearson Ranch Rd<br />
+			Austin, TX 78717
+		</p>
+						
+	</body>
+</html>
