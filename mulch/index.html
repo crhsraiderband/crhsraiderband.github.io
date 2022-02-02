@@ -10,22 +10,35 @@
 body {
   font-family: Arial;
   margin: 0;
+  background: white;
 }
 
 /* Header/Logo Title */
 .header {
-  padding: 30px;
+  padding: 25px;
   text-align: center;
-  /*background: #812aa8;*/
   background: #542174;
   color: white;
-  font-size:22px;
+  font-size:18px;
 }
 
-/* style="height: 70px; width:100%; background-color: #812aa8; line-height: 70px; vertical-align: middle; color: white;" */
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Page Content */
-.content {padding:20px;}
+.content {
+  padding:20px;
+  max-width: 650px;
+  margin: auto;
+}
 </style>
 </head>
 <body>
@@ -34,6 +47,21 @@ body {
     <p>Mulch Fundraiser - March 26, 2022<p>
   </div>
   <div class="content">
+    <h3>Mulch and Donation Drive</h3>
+    <p>High qualiy mulch, in two different colors.</p>
+    <img src="mulch.png" class="responsive center" />
+    
+    <h3>March 26th - Pickup or Delivery</h3>
+    <p>On Saturday, March 26th, we'll be rolling out the mulch! You can have it delivered to your home or business, or pickup at Cedar Ridge High School and we'll load into your vehicle. Minimum order for delivery is $35 and this can be a combination of mulch and/or donation. Delivery area is the Cedar Ridge Attendance Zone, which is roughly the area South of 79, East of 35, West of 130, and North of Pflugerville Pkwy.</p>
+    <img src="delivery.png" class="responsive center" style="width: 80%;" />
+    
+    <h3>You can purchase mulch, donate cash, or both</h3>
+    <p>Don't need mulch because you aren't local? Choose "No Mulch, I'll be making a donation". If you need just a few bags and want it delivered, you can add on a donation to exceed the delivery minimum of $35. </p>
+
+    <h3>Thank you for your support!</h3>
+    <p>Whether you are a friend, family member, co-worker, or alumni of the program, the 220 member Cedar Ridge Raider Band and Color Guard cannot exist and compete at this level without your support. Al proceeds go toward supporting operating expenses of the band which include purchasing our show music, show design, props, transportation, uniforms, and meals. We are also funding a new semi-trailer later this year for transporting our equipment. Thank you for your generosity and support! </p>
+    
+    <h2>Order Form</h2>
     <script src="https://www.cognitoforms.com/f/seamless.js" data-key="119WdM9_tUKvznE-eF2qjQ" data-form="1"></script>
   </div>
 </body>
