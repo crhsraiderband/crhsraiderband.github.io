@@ -73,6 +73,17 @@ body {
 
     <h2>Order Form - Orders taken through March 20th</h2>
     <script src="https://www.cognitoforms.com/f/seamless.js" data-key="119WdM9_tUKvznE-eF2qjQ" data-form="1"></script>
+    <script>
+      var urlParams = new URLSearchParams(window.location.search);
+
+      var utm_params = {
+        "UTMSource": urlParams.get('utm_source'),
+        "UTMMedium": urlParams.get('utm_medium'),
+        "UTMCampaign": urlParams.get('utm_campaign')
+      };
+
+      Cognito.prefill(utm_params);
+    </script>
   </div>
 </body>
 </html>
