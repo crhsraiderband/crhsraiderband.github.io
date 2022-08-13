@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.305dd5ff.css",
-    "main.js": "/react-gh-pages/static/js/main.0c1d01be.js",
-    "static/js/787.f18796fd.chunk.js": "/react-gh-pages/static/js/787.f18796fd.chunk.js",
-    "static/media/Colorguard.png": "/react-gh-pages/static/media/Colorguard.d68c4fc10fd6afcbe172.png",
-    "static/media/Brass.png": "/react-gh-pages/static/media/Brass.746a7bc9173cf4f84766.png",
-    "static/media/Percussion.png": "/react-gh-pages/static/media/Percussion.9d297e607b68edba002e.png",
-    "static/media/Woodwinds.png": "/react-gh-pages/static/media/Woodwinds.557bcd6ccb269c58ab21.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.305dd5ff.css.map": "/react-gh-pages/static/css/main.305dd5ff.css.map",
-    "main.0c1d01be.js.map": "/react-gh-pages/static/js/main.0c1d01be.js.map",
-    "787.f18796fd.chunk.js.map": "/react-gh-pages/static/js/787.f18796fd.chunk.js.map"
+    "main.css": "/static/css/main.305dd5ff.css",
+    "main.js": "/static/js/main.692c4621.js",
+    "static/js/787.f18796fd.chunk.js": "/static/js/787.f18796fd.chunk.js",
+    "static/media/Colorguard.png": "/static/media/Colorguard.d68c4fc10fd6afcbe172.png",
+    "static/media/Brass.png": "/static/media/Brass.746a7bc9173cf4f84766.png",
+    "static/media/Percussion.png": "/static/media/Percussion.9d297e607b68edba002e.png",
+    "static/media/Woodwinds.png": "/static/media/Woodwinds.557bcd6ccb269c58ab21.png",
+    "index.html": "/index.html",
+    "main.305dd5ff.css.map": "/static/css/main.305dd5ff.css.map",
+    "main.692c4621.js.map": "/static/js/main.692c4621.js.map",
+    "787.f18796fd.chunk.js.map": "/static/js/787.f18796fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.305dd5ff.css",
-    "static/js/main.0c1d01be.js"
+    "static/js/main.692c4621.js"
   ]
 }
