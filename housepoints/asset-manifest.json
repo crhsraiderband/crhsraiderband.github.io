@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/housepoints/static/css/main.6422fd59.css",
-    "main.js": "/housepoints/static/js/main.26b5735e.js",
+    "main.css": "/housepoints/static/css/main.b30c7eb2.css",
+    "main.js": "/housepoints/static/js/main.a466f4b6.js",
     "static/js/787.f18796fd.chunk.js": "/housepoints/static/js/787.f18796fd.chunk.js",
     "static/media/Colorguard.png": "/housepoints/static/media/Colorguard.d68c4fc10fd6afcbe172.png",
     "static/media/Brass.png": "/housepoints/static/media/Brass.746a7bc9173cf4f84766.png",
     "static/media/Percussion.png": "/housepoints/static/media/Percussion.9d297e607b68edba002e.png",
     "static/media/Woodwinds.png": "/housepoints/static/media/Woodwinds.557bcd6ccb269c58ab21.png",
     "index.html": "/housepoints/index.html",
-    "main.6422fd59.css.map": "/housepoints/static/css/main.6422fd59.css.map",
-    "main.26b5735e.js.map": "/housepoints/static/js/main.26b5735e.js.map",
+    "main.b30c7eb2.css.map": "/housepoints/static/css/main.b30c7eb2.css.map",
+    "main.a466f4b6.js.map": "/housepoints/static/js/main.a466f4b6.js.map",
     "787.f18796fd.chunk.js.map": "/housepoints/static/js/787.f18796fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6422fd59.css",
-    "static/js/main.26b5735e.js"
+    "static/css/main.b30c7eb2.css",
+    "static/js/main.a466f4b6.js"
   ]
 }
